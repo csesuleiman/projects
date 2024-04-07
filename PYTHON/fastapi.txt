@@ -1,0 +1,35 @@
+FASTAPI
+
+Fastapi is a modern, high performance, web framework from building APIs with Python 3.8+ based on standard python type hints.
+
+To install fastapi;
+pip install fastapi[all] - this command install dependencies needed to run fastapi, however, you can decide to not install all and install them dependencies one after the other as you need.
+
+Standard FastAPI app instance
+
+------------------------------------------------------
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get()
+def greetings()
+	return {"Hello there!, welcome to fastapi"}
+
+-----------------------------------------------------
+
+The above code is a very simple example of fastapi app that displays the message "Hello there!, welcome to fastapi".
+
+The fast line is signifies importation of the fastapi library on to the project folder, this is to make fastapi built-in functions usable in the project file/folder.
+
+The second line of code is creating the app and calling the FastAPI function.
+
+The last lines of code is what we call "Path Operation" often called routes in some other languages.
+
+The decorator is the "@" symbol which is the start the path operation.
+The "app"  is the references and the next is the http method used (CRUD), then followed by the path where it is accessible at on the web or api checker (postman)
+
+Then the last is the function which defines literally everything that the path operation does. It is the logic.
+
+
+
