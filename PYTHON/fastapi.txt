@@ -32,4 +32,15 @@ The "app"  is the references and the next is the http method used (CRUD), then f
 Then the last is the function which defines literally everything that the path operation does. It is the logic.
 
 
+i5Cd5Sl4wI2kIvYR
+thfinabo
+
+
+
+
+
+0040.0B5E.E2EB
+
+0001.4363.2D4D Attacker
+
 
